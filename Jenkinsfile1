@@ -14,7 +14,7 @@ echo 'testing'
 }
 
 stage('Deploy'){
-stages {
+steps {
 echo 'deploy'
 }
 }
