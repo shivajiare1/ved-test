@@ -5,10 +5,12 @@ stage('Build'){
 steps{
 echo 'building'
 }
+}
 
 stage('test'){
 steps{
 echo 'testing'
+}
 }
 
 stage('deploy'){
@@ -16,4 +18,6 @@ stages{
 echo 'deploy'
 }
 
+}
+}
 }
